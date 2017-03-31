@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3739E62C1E8DDD92005E93EB /* YHSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3739E62B1E8DDD92005E93EB /* YHSocketManager.m */; };
+		3739E62F1E8E3A16005E93EB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3739E62E1E8E3A16005E93EB /* SecondViewController.m */; };
+		3739E6321E8E3E82005E93EB /* AsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3739E6311E8E3E82005E93EB /* AsyncSocketManager.m */; };
+		3739E6341E8E411B005E93EB /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3739E6331E8E411B005E93EB /* File.rtf */; };
 		375765111E8BAE5B00F7F542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375765101E8BAE5B00F7F542 /* main.m */; };
 		375765141E8BAE5B00F7F542 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375765131E8BAE5B00F7F542 /* AppDelegate.m */; };
 		375765171E8BAE5B00F7F542 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375765161E8BAE5B00F7F542 /* ViewController.m */; };
@@ -20,6 +23,11 @@
 /* Begin PBXFileReference section */
 		3739E62A1E8DDD92005E93EB /* YHSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSocketManager.h; sourceTree = "<group>"; };
 		3739E62B1E8DDD92005E93EB /* YHSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSocketManager.m; sourceTree = "<group>"; };
+		3739E62D1E8E3A16005E93EB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3739E62E1E8E3A16005E93EB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3739E6301E8E3E82005E93EB /* AsyncSocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocketManager.h; sourceTree = "<group>"; };
+		3739E6311E8E3E82005E93EB /* AsyncSocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocketManager.m; sourceTree = "<group>"; };
+		3739E6331E8E411B005E93EB /* File.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
 		3757650C1E8BAE5A00F7F542 /* SocketTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375765101E8BAE5B00F7F542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		375765121E8BAE5B00F7F542 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +80,11 @@
 				375765131E8BAE5B00F7F542 /* AppDelegate.m */,
 				375765151E8BAE5B00F7F542 /* ViewController.h */,
 				375765161E8BAE5B00F7F542 /* ViewController.m */,
+				3739E62D1E8E3A16005E93EB /* SecondViewController.h */,
+				3739E62E1E8E3A16005E93EB /* SecondViewController.m */,
+				3739E6301E8E3E82005E93EB /* AsyncSocketManager.h */,
+				3739E6311E8E3E82005E93EB /* AsyncSocketManager.m */,
+				3739E6331E8E411B005E93EB /* File.rtf */,
 				3739E62A1E8DDD92005E93EB /* YHSocketManager.h */,
 				3739E62B1E8DDD92005E93EB /* YHSocketManager.m */,
 				375765181E8BAE5C00F7F542 /* Main.storyboard */,
@@ -172,6 +185,7 @@
 			files = (
 				3757651F1E8BAE5D00F7F542 /* LaunchScreen.storyboard in Resources */,
 				3757651C1E8BAE5D00F7F542 /* Assets.xcassets in Resources */,
+				3739E6341E8E411B005E93EB /* File.rtf in Resources */,
 				3757651A1E8BAE5C00F7F542 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3739E62F1E8E3A16005E93EB /* SecondViewController.m in Sources */,
+				3739E6321E8E3E82005E93EB /* AsyncSocketManager.m in Sources */,
 				375765171E8BAE5B00F7F542 /* ViewController.m in Sources */,
 				3739E62C1E8DDD92005E93EB /* YHSocketManager.m in Sources */,
 				375765141E8BAE5B00F7F542 /* AppDelegate.m in Sources */,

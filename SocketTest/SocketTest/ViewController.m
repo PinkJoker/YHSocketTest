@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <CocoaAsyncSocket/AsyncSocket.h>
 #import "YHSocketManager.h"
+#import "SecondViewController.h"
 @interface ViewController ()<AsyncSocketDelegate,UITextFieldDelegate>
 {
     UITextField *textField;
@@ -50,6 +51,14 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    UIButton *second = [[UIButton alloc]init];
+    [self.view addSubview:second];
+    second.frame = CGRectMake(100, 400, 100, 50);
+    second.backgroundColor = [UIColor redColor];
+    [second setTitle:@"跳转第二页" forState:UIControlStateNormal];
+    [second addTarget:self action:@selector(toSecond) forControlEvents:UIControlEventTouchUpInside];
+    
+    
     /* 服务端代码 node.js
      var net = require('net');
      var HOST = '127.0.0.1';
@@ -84,6 +93,12 @@
     
     
 
+}
+-(void)toSecond
+{
+    SecondViewController *second = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:second animated:YES];
+    
 }
 
 -(void)textFieldDidEndEditing:(UITextField *)text
