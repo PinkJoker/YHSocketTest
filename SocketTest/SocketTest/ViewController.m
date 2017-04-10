@@ -45,7 +45,7 @@
     UIButton *oneButton = [[UIButton alloc]init];
     [self.view addSubview:oneButton];
     oneButton.frame = CGRectMake(100, 300, 100, 50);
-    oneButton.backgroundColor = [UIColor greenColor];
+    oneButton.backgroundColor = [UIColor grayColor];
     [oneButton setTitle:@"连接" forState:UIControlStateNormal];
         [oneButton addTarget:self action:@selector(lianjie) forControlEvents:UIControlEventTouchUpInside];
     
@@ -54,7 +54,7 @@
     UIButton *second = [[UIButton alloc]init];
     [self.view addSubview:second];
     second.frame = CGRectMake(100, 400, 100, 50);
-    second.backgroundColor = [UIColor redColor];
+    second.backgroundColor = [UIColor grayColor];
     [second setTitle:@"跳转第二页" forState:UIControlStateNormal];
     [second addTarget:self action:@selector(toSecond) forControlEvents:UIControlEventTouchUpInside];
     
